@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT SCORER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="calculator_tabs59" class="scld-calculator-tabs-container ">
+    <main>
+        <section class="card-container">
+            <div class="card" style="display: flex; justify-content: center; padding: 25%;">
+                <div id="calculator_59_0" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="text-align: center;">
+                    <div id="tab_59_0" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_0" class="scld-calculate">
+                            <p>
+                                <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                                <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_0"> 
+                                <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_0"> 
+                                <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                                <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_0"> 
+                                <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_0"> 
+                                <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                                <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                                <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_0"> 
+                                <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_0"> 
+                                <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_1" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_1" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_1" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_1"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_1"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_1"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_1"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_1"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_1"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_2" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_2" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_2" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_2"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_2"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_2"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_2"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_2">
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_2"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_3" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_3" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_3" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_3"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_3"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_3"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_3"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_3"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_3"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_4" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_4" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_4" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_4"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_4"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_4"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_4"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_4"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_4"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_5" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_5" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_5" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_5"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_5"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_5"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_5"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_5"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_5"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_6" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_6" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_6" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_6"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_6"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_6"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_6"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_6"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_6"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_7" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_7" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_7" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_7"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_7"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_7"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_7"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_7"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_7"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_8" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_8" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_8" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_8"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_8"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_8"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_8"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_8"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_8"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_9" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_9" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_9" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_9"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_9"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_9"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_9"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_9"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_9"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_10" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_10" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_10" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_10"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_10"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_10"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_10"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_10"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_10"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_11" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_11" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_11" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_11"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_11"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_11"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_11"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_11"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_11"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_12" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_12" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_12" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_12"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_12"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_12"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_12"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_12"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_12"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_13" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_13" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_13" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_13"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_13"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_13"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_13"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_13"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_13"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_14" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_14" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_14" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_14"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_14"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_14"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_14"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_14"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_14"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_15" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_15" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_15" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_15"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_15"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_15"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_15"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_15"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_15"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_16" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_16" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_16" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_16"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_16"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_16"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_16"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_16"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_16"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_17" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_17" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_17" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_17"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_17"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_17"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_17"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_17"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_17"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_17" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_17" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_17" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_17"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_17"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_17"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_17"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_17"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_17"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_18" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_18" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_18" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_18"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_18"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_18"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_18"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_18"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_18"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_19" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_19" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_19" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_19"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_19"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_19"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_19"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_19"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_19"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_20" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none; text-align: center; ">
+                    <div id="tab_59_20" class="scld-calculator scld-calculator__input__container">
+                        <div id="59_20" class="scld-calculate">
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Reading Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_20"> 
+                            <input type="number" min="0" max="52" value="26" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Reading_Section" data-id="59_20"> 
+                            <span class="scld-out-of-correct-number">/52</span>
+                            </p>
+                            <p><label style="color: black; font-weight: bold;">SAT® Writing Section</label></p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_20"> 
+                            <input type="number" min="0" max="44" value="22" data-part="Reading_&_Writing_Section_Score" data-subject="SAT®_Writing_Section" data-id="59_20"> 
+                            <span class="scld-out-of-correct-number">/44</span></p>
+                            <p>
+                            <label style="color: black; font-weight: bold;">SAT® Math Section</label>
+                            </p>
+                            <p class="calculator__item"> 
+                            <input type="range" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_20"> 
+                            <input type="number" min="0" max="58" value="29" data-part="SAT®_Math_Section_Total" data-subject="SAT®_Math_Section" data-id="59_20"> 
+                            <span class="scld-out-of-correct-number">/58</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="display: flex; justify-content: center; padding: 30%;">
+                <div id="calculator_59_0" class="scld-calculator-tabs-sat scld-calculator__wrapper" class="asd">
+                    <div id="results_59_0" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_1" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none">
+                    <div id="results_59_1" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_2" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none;">
+                    <div id="results_59_2" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_3" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none;">
+                    <div id="results_59_3" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_4" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none;">
+                    <div id="results_59_4" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_5" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none;">
+                    <div id="results_59_5" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_6" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none;">
+                    <div id="results_59_6" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_7" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none;">
+                    <div id="results_59_7" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_8" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none;">
+                    <div id="results_59_8" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_9" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none;">
+                    <div id="results_59_9" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>  
+                </div>
+                <div id="calculator_59_10" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none;">
+                    <div id="results_59_10" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_11" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none;">
+                    <div id="results_59_11" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_12" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none;">
+                    <div id="results_59_12" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_13" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none;">
+                    <div id="results_59_13" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_14" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none;">
+                    <div id="results_59_14" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_15" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none;">
+                    <div id="results_59_15" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_16" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none;">
+                    <div id="results_59_16" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_17" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none;">
+                    <div id="results_59_17" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_18" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none;">
+                    <div id="results_59_18" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_19" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none;">
+                    <div id="results_59_19" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calculator_59_20" class="scld-calculator-tabs-sat scld-calculator__wrapper" style="display: none;">
+                    <div id="results_59_20" style="float: left" class="scld-calculator__result__container">
+                        <div class="scld-result-container"><span>Reading & Writing Section Score</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Reading_Section" data-score="0" data-part="Reading_&_Writing_Section_Score" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <div style="display: none"><span>Reading & Writing Section Score</span>
+                            <div class=" hidden-result"> <output data-insert="SAT®_Writing_Section" data-part="Reading_&_Writing_Section_Score">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span>SAT® Math Section</span>
+                            <div style="text-align: center;" class="scld-result-score shown-result"> <output data-insert="SAT®_Math_Section" data-score="0" data-part="SAT®_Math_Section_Total" class="scld-result-output-wc subject-result">0</output></div>
+                        </div>
+                        <br>
+                        <div class="scld-result-container"><span class="scld-result-predicted scld-result-last">Total SAT® Score</span>
+                            <div style="text-align: center;" class="scld-result-score change-color"> <output data-insert="total" data-sat-max="1600" class="scld-result-output-wc">0</output></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card" style="padding: 40px; width: 100%;
+            height: 100%;">
+                <div class="calc-switcher-container">
+                    <div style="margin-top: 20%;">
+                        <p class="scld-tab-switcher-title" style="text-align: center; font-weight: bold; color: black;">Choose your score curve</p>
+                        <br>
+                        <ul style="list-style: none;columns: 2;-webkit-columns: 2;-moz-columns: 2;"> 
+                            <li style="text-align: center; border: 1px solid black;"><a href="main.html#" class="scld-calculator-tab-button scld-selected-tab-button" data-tab-id="59" data-calculator-id="59_0">SAT® Practice Test #1</a> </li>
+                            <li style="text-align: center; border: 1px solid black;"><a href="main.html#" class="scld-calculator-tab-button scld-selected-tab-button" data-tab-id="59" data-calculator-id="59_1">SAT® Practice Test #2</a> </li>
+                            <li style="text-align: center; border: 1px solid black;"><a href="main.html#" class="scld-calculator-tab-button scld-selected-tab-button" data-tab-id="59" data-calculator-id="59_2">SAT® Practice Test #3</a> </li>
+                            <li style="text-align: center; border: 1px solid black;"><a href="main.html#" class="scld-calculator-tab-button scld-selected-tab-button" data-tab-id="59" data-calculator-id="59_3">SAT® Practice Test #4</a> </li>
+                            <li style="text-align: center; border: 1px solid black;"><a href="main.html#" class="scld-calculator-tab-button scld-selected-tab-button" data-tab-id="59" data-calculator-id="59_4">SAT® Practice Test #5</a> </li>
+                            <li style="text-align: center; border: 1px solid black;"><a href="main.html#" class="scld-calculator-tab-button scld-selected-tab-button" data-tab-id="59" data-calculator-id="59_5">SAT® Practice Test #6</a> </li>
+                            <li style="text-align: center; border: 1px solid black;"><a href="main.html#" class="scld-calculator-tab-button scld-selected-tab-button" data-tab-id="59" data-calculator-id="59_6">SAT® Practice Test #7</a> </li>
+                            <li style="text-align: center; border: 1px solid black;"><a href="main.html#" class="scld-calculator-tab-button scld-selected-tab-button" data-tab-id="59" data-calculator-id="59_7">SAT® Practice Test #8</a> </li>
+                            <li style="text-align: center; border: 1px solid black;"><a href="main.html#" class="scld-calculator-tab-button scld-selected-tab-button" data-tab-id="59" data-calculator-id="59_8">SAT® Practice Test #9</a> </li>
+                            <li style="text-align: center; border: 1px solid black;"><a href="main.html#" class="scld-calculator-tab-button scld-selected-tab-button" data-tab-id="59" data-calculator-id="59_9">SAT® Practice Test #10</a> </li>
+                            <li style="text-align: center; border: 1px solid black;"><a href="main.html#" class="scld-calculator-tab-button scld-selected-tab-button" data-tab-id="59" data-calculator-id="59_10">April School-Day SAT 4/9/19</a> </li>
+                            <li style="text-align: center; border: 1px solid black;"><a href="main.html#" class="scld-calculator-tab-button scld-selected-tab-button" data-tab-id="59" data-calculator-id="59_11">SAT March 2019</a> </li>
+                            <li style="text-align: center; border: 1px solid black;"><a href="main.html#" class="scld-calculator-tab-button scld-selected-tab-button" data-tab-id="59" data-calculator-id="59_12">SAT April 2017 School-Day Test</a> </li>
+                            <li style="text-align: center; border: 1px solid black;"><a href="main.html#" class="scld-calculator-tab-button scld-selected-tab-button" data-tab-id="59" data-calculator-id="59_13">2018 May international</a> </li>
+                            <li style="text-align: center; border: 1px solid black;"><a href="main.html#" class="scld-calculator-tab-button scld-selected-tab-button" data-tab-id="59" data-calculator-id="59_14">2017 May international</a> </li>
+                            <li style="text-align: center; border: 1px solid black;"><a href="main.html#" class="scld-calculator-tab-button scld-selected-tab-button" data-tab-id="59" data-calculator-id="59_15">October 2018</a> </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+
+<!-- Scripts -->
+<script src='jquery-3.4.1.min.js' id='jquery-calc-js'></script>
+<script src="scripts.js"></script>
+<script src="calc.js"></script>
+</body>
+</html>

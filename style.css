@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+canvas {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+
+html,
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #303336;
+    scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    min-height: 640px;
+    background-color: #d1e8ee;
+}
+
+h3 {
+    font-family: var(--fonts-style-x);
+    font-size: 2.25em;
+}
+
+h6 {
+    font-family: var(--fonts-style-x);
+    font-size: 1em;
+}
+
+p {
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+::selection {
+    color: #fff;
+    background-color: #005AEE;
+}
+
+/* ======================== */
+/* Just Copy The Code Below */
+
+/* ------------- */
+/* Content Style */
+/* ------------- */
+
+.card-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 20px;
+    font-family: 'neuzeit-grotesk', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #303336;
+}
+
+.card {
+    height: 470px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 40px 40px -20px #8fc7d544;
+    overflow: hidden;
+}
+
+.card .card-top {
+    height: 236px;
+    font-family: 'neuzeit-grotesk', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #303336;
+    background-color: #d1e8ee;
+    overflow: hidden;
+}
+
+.card .card-top a {
+    display: block;  
+    height: 100%;  
+}
+
+#highlight {
+    color: #e83f43;
+  }
+  
+.card .card-top a img {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    object-position: center; 
+    transition: 300ms;
+}
+
+.card .card-content {
+    padding: 30px;
+}
+
+.card .card-content .tag {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.card .tag-travel {
+    color: #33459b;
+}
+
+.card .tag-nature {
+    color: #339b4b;
+}
+
+.card .tag-architecture {
+    color: #9b3d33;
+}
+
+.card .title {
+    color: #303336;
+    font-weight: 700;
+    transition: 300ms;
+}
+
+.card p {
+    color: #7B8591;
+    margin-top: 20px;
+}
+
+
+/* ---------------------------- */
+/* Content Style | Hover Effect */
+/* ---------------------------- */
+
+.card .card-top a img:hover {
+    opacity: .75;
+}
+
+.card .title:hover {
+    color: #303336bb;
+}
+
+
+input[type='range'] {
+    overflow: hidden;
+    width: 80px;
+    -webkit-appearance: none;
+    background-color: #9a905d;
+}
+
+#logo {
+    color: #232323;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+input[type='range']::-webkit-slider-runnable-track {
+    height: 10px;
+    -webkit-appearance: none;
+    color: #13bba4;
+    margin-top: -1px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    width: 10px;
+    -webkit-appearance: none;
+    height: 10px;
+    cursor: ew-resize;
+    background: #434343;
+    box-shadow: -80px 0 0 80px #43e5f7;
+}
+
+input[type="range"]::-moz-range-progress {
+    background-color: #43e5f7; 
+}
+input[type="range"]::-moz-range-track {  
+    background-color: #9a905d;
+}
+input[type="range"]::-ms-fill-lower {
+    background-color: #43e5f7; 
+}
+input[type="range"]::-ms-fill-upper {  
+    background-color: #9a905d;
+}
+/* Just Copy The Code Above */
+/* ======================== */
+
+.scld-result-output-wc {
+    font-weight: bold;
+}
+/* Display this style when screen-width is lower than 1240px */
+@media only screen and (max-width: 940px) {
+
+    main {
+        display: block;
+        height: auto;
+        padding: 80px 0;
+        font-size: 25px;
+    }
+    .scld-calculator-tabs-sat {
+        margin-bottom: 30% ;
+    }
+    .card-container {
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        margin: 0;
+        padding: 40px;
+        font-size: 25px;
+    }
+
+    .card {
+        height: auto;
+        font-size: 25px;
+    }
+    #logo {
+        font-size: 1.25rem;
+    }
+
+}
+
+/* Display this style when screen-width is lower than 768px */
+@media only screen and (max-width: 768px) {
+
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+    .scld-calculator-tabs-sat {
+        margin-bottom: 30% ;
+    }
+    main {
+        font-size: 25px;
+    }
+
+}
+.scld-result-container {
+    text-align: center;
+}
+/* Display this style when screen-width is lower than 425px */
+@media only screen and (max-width: 425px) {
+
+    .card-container {
+        padding: 20px;
+    }
+    .scld-calculator-tabs-sat {
+        margin-bottom: 30% ;
+    }
+    main {
+        font-size: 25px;
+    }
+
+}
+
+
+/* ----------- */
+/* UI Designer */
+/* ----------- */
+
+.designer {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    font-weight: 400;
+    color: #46a2b9;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 300ms;
+}
+
+.designer a {
+    text-decoration: none;
+    color: #23515d;
+}
+
+body:hover .designer {
+    opacity: 1;
+}
